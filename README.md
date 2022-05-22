@@ -1,9 +1,6 @@
 Genesis: Unnatural Selection
 ==============================
 
-Technica
-Initiate | Innovate | Inspire
-
 AI-Powered Drug Discovery on the Blockchain
 
 Project Organization
