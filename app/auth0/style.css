@@ -1,0 +1,170 @@
+body {
+   background: #04A5F6;
+      url("https://github.com/lucylow/Genesis/blob/main/images/Screen%20Shot%202022-05-21%20at%201.27.36%20PM.png?raw=true") center fixed;
+   background-size:cover;
+    font-family:"aileron"
+    -moz-font-smoothing:subpixel-antialiased;
+    -webkit-font-smoothing:subpixel-antialiased;
+    font-smoothing:subpixel-antialiased;
+   color:#fff;
+}
+
+a, input {
+    transition:0.5s ease-in-out;
+    -webkit-transition:0.5s ease-in-out;
+    -moz-transition:0.5s ease-in-out;
+    -ms-transition:0.5s ease-in-out;
+    -o-transition:0.5s ease-in-out;
+}
+
+a {
+  text-decoration:none;
+  color: black;
+   border:none;
+}
+
+#topbar {
+  padding:50px;
+   position:fixed;
+   top:0;
+   left:0;
+  font-size:25px;
+   background:#fff;
+   color:#000;
+   width:calc(100vw - 100px);
+}
+
+#logo {
+  display:inline-block;
+  margin-bottom:-10px;
+}
+
+h2 {
+   color: black;
+}
+ht {
+  font-size:50px;
+  color:#777;
+  margin:5px 10px 0 20px;
+  display:inline;
+  position:absolute;
+}
+
+ht:after {
+  content:"AI-Powered Drug Discovery on the Blockchain";
+  font-size:25px;
+  color:#000;
+  padding-left:15px;
+  padding-top:15px;
+}
+
+.links {
+  position:absolute;
+  right:50px;
+  text-align:right;
+  display:inline-block;
+  text-transform:uppercase;
+  font-size:25px;
+  margin-top:30px;
+}
+
+.links a {
+  color: #04A5F6;
+  font-size: 25px;
+  text-decoration:none;
+  margin:0 10px;
+  padding-bottom: 77px;
+  display: inline-block;
+  border-bottom:none;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+ 
+.links a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0px;
+  background:#ffe94d;
+  height: 3px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.links a:hover:before, .links a:focus:before, .links a:active:before {
+  left: 0;
+  right: 0;
+}
+
+.sfm input {
+    border: 0px;
+    color: #7e7e7e;
+    letter-spacing: 1px;
+    padding: 4px 3px;
+    outline:none;
+   display:block;
+   margin:auto;}
+
+
+input[type="text"] {
+    border:2px solid #2a6ec1;
+    height:30px;
+    outline:none;
+    left:0;
+    margin:30px 0 0px;
+   text-align:center;
+}
+ 
+::-webkit-input-placeholder {color: inherit;}
+:-moz-placeholder {color: inherit; opacity:1;}
+::-moz-placeholder {color: inherit; opacity:1;}
+:-ms-input-placeholder {color: inherit;}
+input:focus::-webkit-input-placeholder {color: transparent;}
+input:focus:-moz-placeholder {color: transparent;}
+input:focus::-moz-placeholder {color: transparent;}
+input:focus:-ms-input-placeholder { color: transparent;} 
+
+input[type="file"] {margin:20px auto 0 0 ;}
+
+
+legend {width:250px;}
+input[type="radio"] {display:inline-block;}
+
+input[type="submit"] {
+    background: black;
+   color:#fff;
+
+    height: 50px;
+    border: 0;
+   margin-top:50px;
+}
+
+input[type="submit"]:hover {background:#7CB7FF;}
+
+input[type="submit"]:focus, input[type="radio"]:focus {border:none!important;outline:none!important}
+
+a.abt {display:inline-block!important;}
+
+#about {
+   height:auto;
+
+   text-align:justify;
+   padding:40px;
+   background:#2a6ec1;
+   color:#fff;
+   margin:50px auto;
+   display:none;
+}
+
