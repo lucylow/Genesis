@@ -1,0 +1,23 @@
+// Configuration
+const myClientId = 'POBEqlLC6cvXqab6qvdBJzHiLYQ3pCot' // demo use only
+const myDomain = 'theopak.auth0.com'
+const options = { allowedConnections: [ 'Username-Password-Authentication' ] }
+const lock = new Auth0Lock(myClientId, myDomain, options)
+lock.show()
+
+// This function adds a message to the Lock.js dialog box, 
+// as a proof-of-concept of something that can only be done
+// after the 'signin ready' event is triggered.
+const addMessageToLock = (event) => {
+  let myDiv = document.createElement('h4')
+  myDiv.style.textAlign = 'center'
+  myDiv.style.textAlign = 'center'
+  myDiv.innerHTML = 'Example Message Added to Lock'
+  const targetNode = document.getElementsByClassName('auth0-lock-input-block')[0].parentNode
+  targetNode.insertBefore(myDiv, targetNode.firstChild)
+}
+
+// Here's an example of how the 'signin ready' event is used
+// to do something that's only possible after Lock.js is in 
+// the DOM and done appearing.
+lock.on('signin ready', addMessageToLock)
