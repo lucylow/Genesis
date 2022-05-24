@@ -3,7 +3,7 @@ Genesis: Unnatural Selection
 
 AI-Powered Drug Discovery on the Blockchain
 
-Project Organization
+AI4SCIENCE Project
 ------------
 
     ├── LICENSE
